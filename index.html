@@ -17,10 +17,10 @@
 <body>
     <!-- start header section  -->
     <header>
-        <section id="header">
-            <div class="container">
+        <section>
+            <div class="container ">
                 <!-- Start Navigation menu  -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="index.html">
                             <img class="img-fluid d-block" src="images/logo.png" alt="logo">
@@ -33,13 +33,13 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item px-4">
-                                    <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                                 </li>
                                 <li class="nav-item px-4">
-                                    <a class="nav-link" href="#product">Product</a>
+                                    <a class="nav-link" href="#mobile">Mobile</a>
                                 </li>
                                 <li class="nav-item px-4">
-                                    <a class="nav-link" href="#about">About</a>
+                                    <a class="nav-link" href="#categories">Categories</a>
                                 </li>
                                 <li class="nav-item px-4">
                                     <a class="nav-link " href="#contact">Contact Us</a>
@@ -52,7 +52,7 @@
             </div>
         </section>
         <!-- Start Carousel section  -->
-        <section id="carousel">
+        <section id="home">
             <div class="container">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
@@ -212,33 +212,62 @@
         </section>
         <section id="categories">
             <div class="container">
-                <div class="row">
-                    <h1>Categories</h1>
+                <div class="row py-4">
+                    <h1 class="text-center">Categories</h1>
                     <hr>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-12">
-                        <div class="row">
-                            <div class=" col-12">
-                                <img src="images/Categories/bag.png" alt="">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="col-6 ">
+                                <div class="card mt-4">
+                                    <img src="images/Categories/bag.png" alt="">
+                                </div>
                             </div>
-                            <div class="row" ></div>
-                                <div class="col-12">
-                                    <img src="images/Categories/perfume.png" alt="">
-                                    <img src="images/Categories/shoe.png" alt="">
+                            <div class="col-6  ">
+                                <div class="row ">
+                                    <div class="card my-4">
+                                        <img class="img-fluid" src="images/Categories/perfume.png" alt="">
+                                    </div>
+                                    <div class="card ">
+                                        <img class="img-fluid" src="images/Categories/shoe.png" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="images/Categories/pale-order.png" alt="">
+                    <div class="col-md-6 col-12 d-flex align-items-center justify-content-lg-center">
+                        <div>
+                            <img class="img-fluid" src="images/Categories/pale-order.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- start Contact section  -->
+        <section id="contact">
+            <div class="container">
+                <div class="row p-4">
+                    <div class="col-12 d-flex align-items-sm-center justify-content-center  contact">
+                        <div>
+                            <h1>Subscribe our page</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, suscipit?</p>
+                            <form action="from  ">
+                                <input type="text" placeholder="Enter Your Email Address"
+                                    class=" form-control float-lg-start float-md-none w-50">
+                                <input class="btn btn-danger mx-lg-2 mx-md-0 mt-2 mt-lg-0" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact section  -->
     </main>
     <!-- start footer section  -->
-
+    <footer>
+        <p class="text-warning fs-5 bg-secondary text-center py-3">Freelancer Hridey &copy; 2020</p>
+    </footer>
 
 
 

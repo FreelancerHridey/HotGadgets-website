@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    scroll-behavior: smooth;
 }
 
 section{
@@ -37,4 +37,27 @@ section{
     text-decoration: none;
     font-size: 25px;
     color: rgba(19, 223, 63, 0.74);
+}
+hr{
+    width: 160px !important;
+    height: 10px !important;
+    background-color: tomato;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#categories .card{
+    min-height: 250px;
+    width: 200px;
+    text-align: center;
+}
+#categories .card img{
+    margin: auto 0;
+}
+#categories .card{
+    border-radius: 15px 4px 30px 4px;
+}
+.contact{
+    background-color: violet;
+    min-height: 300px;
+    border-radius: 10px;
 }
